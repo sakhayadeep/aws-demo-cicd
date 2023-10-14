@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf /usr/share/tomcat/webapps/democicd*
+rm -rf /home/ec2-user/apache-tomcat-8.5.94/webapps/democicd*

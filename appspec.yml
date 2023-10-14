@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: target/democicd.war
-    destination: /usr/share/tomcat/webapps/
+    destination: /home/ec2-user/apache-tomcat-8.5.94/webapps/
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
